@@ -77,6 +77,8 @@ export function EditorialHero({
 											asLink: true,
 											size: "lg",
 											variant: primaryCta.variant === "secondary" ? "secondary" : "default",
+											className:
+												"border border-primary-foreground/30 bg-primary/60 shadow-lg backdrop-blur-md backdrop-saturate-150 hover:bg-primary/50",
 										})}
 									/>
 								) : null}
