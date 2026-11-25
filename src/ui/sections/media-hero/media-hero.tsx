@@ -219,10 +219,10 @@ export function MediaHero({
 										className={buttonClassName({
 											asLink: true,
 											size: "lg",
-											variant: primaryCta.variant === "secondary" ? "secondary" : "default",
+											variant: primaryCta.variant === "secondary" ? "secondary" : "glass",
 											className:
 												copyTone === "inverse"
-													? "bg-background text-foreground hover:bg-background/90"
+													? "border-background/50 bg-background/20 text-inverse hover:bg-background/30"
 													: undefined,
 										})}
 									/>

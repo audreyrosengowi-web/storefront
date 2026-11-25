@@ -21,6 +21,8 @@ export const buttonVariants = cva(
 				"outline-solid":
 					"shadow-xs border border-input bg-background hover:bg-accent hover:text-accent-foreground",
 				ghost: "hover:bg-accent hover:text-accent-foreground",
+				glass:
+					"border border-background/40 bg-primary/75 text-primary-foreground shadow-lg ring-1 ring-inset ring-background/20 backdrop-blur-md backdrop-saturate-150 hover:bg-primary/85",
 				destructive: "hover:bg-destructive/90 shadow-xs bg-destructive text-destructive-foreground",
 			},
 			size: {
